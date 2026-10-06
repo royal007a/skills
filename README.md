@@ -30,4 +30,10 @@ skills/
 - 运行缓存、日志和临时产物不进入版本控制。
 - 说明平台与工具依赖，避免写死个人机器路径。
 
-当前仓库仅初始化结构，后续逐项加入 skill。
+## 已收录
+
+| Skill | 用途 |
+|---|---|
+| [geektime-course-pdf](skills/geektime-course-pdf/SKILL.md) | 导出极客时间专栏和公开课，支持登录复用、增量抓取、正文及评论 PDF |
+
+需要使用时，将对应 skill 目录复制到 Agent 的 skills 目录中。各 skill 的依赖、参数和使用范围以其 `SKILL.md` 为准。
