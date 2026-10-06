@@ -1,0 +1,26 @@
+# OS and editors
+.DS_Store
+.idea/
+.vscode/
+
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+credentials.json
+cookies.json
+.geektime-export/
+
+# Dependencies and caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+
+# Runtime artifacts
+*.log
+tmp/
+temp/
